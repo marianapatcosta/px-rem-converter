@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #0f0f14;
+    --secondary-color: #282838;
+    --tertiary-color: #ec708d;
+    --font-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    font-size: 0.85rem;
+    line-height: 0.85rem;
+}
+
+.container {
+    width: max-content;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding: 0.25rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;;
+}
+
+.inputs {
+    display: flex;
+    align-items: stretch;
+    gap: 0.3rem;
+}
+
+.inputs input {
+    font: inherit;
+    color: inherit;
+    padding: 0.25rem;
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--secondary-color);
+    width: 3rem;
+    text-align: end;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.inputs button {
+    font: inherit;
+    color: inherit;
+    background-color: var(--tertiary-color);
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputs button:hover {
+    opacity: 0.8;
+}
