@@ -1,6 +1,6 @@
 # px-rem-converter
 
-Simple chrome extension that converts px to rem and rem to px and allows to copy the value to clipboard.
+Px to Rem converter is a simple Chrome extension that converts px to rem and rem to px in real time, allowing to copy the converted value to the clipboard.
 
 <img width="189" alt="image" src="https://user-images.githubusercontent.com/43031902/176925354-769ab090-67aa-4dfd-8f1b-bf863414a645.png">
 

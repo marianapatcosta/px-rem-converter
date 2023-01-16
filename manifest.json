@@ -1,7 +1,7 @@
 {
     "name": "px <-> rem converter",
     "version": "1.0.0",
-    "description": "converts px to rem and rem to px",
+    "description": "Px-rem-converter converts px to rem and rem to px in real time",
     "manifest_version": 3,
     "author": "Mariana COsta",
     "action":{
@@ -9,12 +9,8 @@
         "default_title": "px <-> rem converter"
     },
     "icons":{
-        "32": "px-to-rem.png"
-    },
-    "web_accessible_resources": [
-        {
-            "resources": [ "test1.png" ],
-            "matches": [ "https://web-accessible-resources-1.glitch.me/*" ]
-        }
-    ]
+        "32": "px-to-rem.png",
+        "48": "px-to-rem.png",
+        "128": "px-to-rem.png"
+    }
 }
